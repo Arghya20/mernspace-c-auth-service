@@ -1,24 +1,27 @@
 {
-  "name": "auth-service",
-  "version": "1.0.0",
-  "description": "A user management service",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Arghya20/mernspace-c-auth-service.git"
-  },
-  "author": "Arghya <arghyaghosh2021@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Arghya20/mernspace-c-auth-service/issues"
-  },
-  "homepage": "https://github.com/Arghya20/mernspace-c-auth-service#readme",
-  "devDependencies": {
-    "@types/node": "^20.6.1",
-    "typescript": "^5.2.2"
-  }
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "A user management service",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/server.js",
+        "format:check": "prettier . --check",
+        "format:fix": "prettier . --write",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Arghya20/mernspace-c-auth-service.git"
+    },
+    "author": "Arghya <arghyaghosh2021@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Arghya20/mernspace-c-auth-service/issues"
+    },
+    "homepage": "https://github.com/Arghya20/mernspace-c-auth-service#readme",
+    "devDependencies": {
+        "@types/node": "^20.6.1",
+        "prettier": "3.0.3",
+        "typescript": "^5.2.2"
+    }
 }
